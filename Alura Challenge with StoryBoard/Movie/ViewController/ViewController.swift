@@ -1,20 +1,3 @@
-//
-//  ViewController.swift
-//  Alura Challenge with StoryBoard
-//
-//  Created by Fabiana Limma on 04/07/23.
-//
-
-struct Movie {
-    let id: Int
-    let title: String
-    let releaseDate: String
-    let image: String?
-    let overview: String
-    let scoreAverage: Float
-}
-
-
 import UIKit
 
 class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSource {

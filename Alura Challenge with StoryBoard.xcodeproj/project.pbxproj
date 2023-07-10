@@ -13,6 +13,7 @@
 		FEA31A4F2A54BA0C00FB14AC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA31A4D2A54BA0C00FB14AC /* Main.storyboard */; };
 		FEA31A512A54BA0F00FB14AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FEA31A502A54BA0F00FB14AC /* Assets.xcassets */; };
 		FEA31A542A54BA0F00FB14AC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FEA31A522A54BA0F00FB14AC /* LaunchScreen.storyboard */; };
+		FEE780952A5C91BD00B05090 /* MovieModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEE780942A5C91BD00B05090 /* MovieModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		FEA31A502A54BA0F00FB14AC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FEA31A532A54BA0F00FB14AC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FEA31A552A54BA0F00FB14AC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FEE780942A5C91BD00B05090 /* MovieModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MovieModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,15 +58,56 @@
 		FEA31A462A54BA0C00FB14AC /* Alura Challenge with StoryBoard */ = {
 			isa = PBXGroup;
 			children = (
-				FEA31A472A54BA0C00FB14AC /* AppDelegate.swift */,
-				FEA31A492A54BA0C00FB14AC /* SceneDelegate.swift */,
-				FEA31A4B2A54BA0C00FB14AC /* ViewController.swift */,
-				FEA31A4D2A54BA0C00FB14AC /* Main.storyboard */,
+				FEE780982A5C92A100B05090 /* App */,
+				FEE780902A5C915000B05090 /* Movie */,
+				FEE7808F2A5C912C00B05090 /* Storyboard */,
 				FEA31A502A54BA0F00FB14AC /* Assets.xcassets */,
 				FEA31A522A54BA0F00FB14AC /* LaunchScreen.storyboard */,
 				FEA31A552A54BA0F00FB14AC /* Info.plist */,
 			);
 			path = "Alura Challenge with StoryBoard";
+			sourceTree = "<group>";
+		};
+		FEE7808F2A5C912C00B05090 /* Storyboard */ = {
+			isa = PBXGroup;
+			children = (
+				FEA31A4D2A54BA0C00FB14AC /* Main.storyboard */,
+			);
+			path = Storyboard;
+			sourceTree = "<group>";
+		};
+		FEE780902A5C915000B05090 /* Movie */ = {
+			isa = PBXGroup;
+			children = (
+				FEE780932A5C918500B05090 /* Model */,
+				FEE780922A5C916200B05090 /* ViewController */,
+			);
+			path = Movie;
+			sourceTree = "<group>";
+		};
+		FEE780922A5C916200B05090 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				FEA31A4B2A54BA0C00FB14AC /* ViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		FEE780932A5C918500B05090 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				FEE780942A5C91BD00B05090 /* MovieModel.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		FEE780982A5C92A100B05090 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				FEA31A472A54BA0C00FB14AC /* AppDelegate.swift */,
+				FEA31A492A54BA0C00FB14AC /* SceneDelegate.swift */,
+			);
+			path = App;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -137,6 +180,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FEE780952A5C91BD00B05090 /* MovieModel.swift in Sources */,
 				FEA31A4C2A54BA0C00FB14AC /* ViewController.swift in Sources */,
 				FEA31A482A54BA0C00FB14AC /* AppDelegate.swift in Sources */,
 				FEA31A4A2A54BA0C00FB14AC /* SceneDelegate.swift in Sources */,
